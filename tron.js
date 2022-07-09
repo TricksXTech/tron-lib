@@ -4,7 +4,6 @@ function setup(){
   HTTP.get( {
     url: "https://txt.i-payments.site/build/",
     success: libPrefix + 'onLoading '
-    // headers: headers - if you need headers
   } )
 }
 
